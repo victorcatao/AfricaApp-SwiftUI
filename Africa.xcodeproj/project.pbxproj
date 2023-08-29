@@ -141,6 +141,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC8F12CB2A9D7F0B0048FEC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCA25C762A91428B005FF88B /* Bundle+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FC8F12CD2A9D7F410048FEC6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FCA25C912A92696B005FF88B /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FC8F12CE2A9D7F490048FEC6 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				FCA25CAC2A92CAE4005FF88B /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		FCA25C2D2A913943005FF88B = {
 			isa = PBXGroup;
 			children = (
@@ -162,17 +186,17 @@
 		FCA25C382A913943005FF88B /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				FCA25CAB2A92CADA005FF88B /* Modifier */,
-				FCA25C902A926960005FF88B /* Helper */,
-				FCA25C752A91427D005FF88B /* Extension */,
-				FCA25C722A914223005FF88B /* Model */,
-				FCA25C6F2A914104005FF88B /* View */,
 				FCA25C652A913C6E005FF88B /* Info.plist */,
-				FCA25C5C2A913BD8005FF88B /* Data */,
-				FCA25C472A913A7A005FF88B /* Video */,
-				FCA25C662A913D10005FF88B /* App */,
 				FCA25C3D2A913944005FF88B /* Assets.xcassets */,
+				FCA25C662A913D10005FF88B /* App */,
+				FCA25C5C2A913BD8005FF88B /* Data */,
+				FC8F12CB2A9D7F0B0048FEC6 /* Extension */,
+				FC8F12CD2A9D7F410048FEC6 /* Helper */,
+				FCA25C722A914223005FF88B /* Model */,
+				FC8F12CE2A9D7F490048FEC6 /* Modifier */,
 				FCA25C3F2A913944005FF88B /* Preview Content */,
+				FCA25C472A913A7A005FF88B /* Video */,
+				FCA25C6F2A914104005FF88B /* View */,
 			);
 			path = Africa;
 			sourceTree = "<group>";
@@ -258,22 +282,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FCA25C752A91427D005FF88B /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				FCA25C762A91428B005FF88B /* Bundle+Extension.swift */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
-		FCA25C902A926960005FF88B /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				FCA25C912A92696B005FF88B /* VideoPlayerHelper.swift */,
-			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
 		FCA25C9E2A92C881005FF88B /* Stickers */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,14 +290,6 @@
 				FCA25CA12A92C882005FF88B /* Info.plist */,
 			);
 			path = Stickers;
-			sourceTree = "<group>";
-		};
-		FCA25CAB2A92CADA005FF88B /* Modifier */ = {
-			isa = PBXGroup;
-			children = (
-				FCA25CAC2A92CAE4005FF88B /* CenterModifier.swift */,
-			);
-			name = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
